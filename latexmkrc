@@ -81,7 +81,7 @@ add_cus_dep('aux', 'glstex', 0, 'run_bib2gls');
 #    close LOG;
 #    }
 #    return $ret;
-$pdf_previewer = 'zathura';
+#$pdf_previewer = 'zathura';
 $pdflatex="pdflatex -interaction=nonstopmode %O %S";
 $out_dir = 'build';
 $clean_ext .= " pythontex-files-%R/* pythontex-files-%R";
